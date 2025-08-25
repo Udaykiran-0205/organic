@@ -38,13 +38,14 @@ header .info-container .policy-container a {
    transition: color 5s;   
 }
 header .nav-container {
-   width: 100%;
+   width: 90%;
    color: var(--text-dark-grey) ;
    display: flex;
    align-items: center;
    justify-content: space-between;
    background-color: white;
    padding: 30px;
+   position: sticky;
 
 }
 header .nav-container nav {

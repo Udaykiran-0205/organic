@@ -1,0 +1,51 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;  
+}
+main .title {
+    background: linear-gradient(45deg, var(--primary-color)) ;
+    background-clip: text;
+    color: transparent;
+}
+main form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+main form input {
+    padding: 10px;
+    font-size: 1.3em;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    box-shadow: 0px 0px 8px rgb(32, 12, 12);
+}
+main form .button-container {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+main form button {
+    font-size: 1.2em;
+    padding: 10px;
+    cursor: pointer;
+}
+main form button:nth-child(1) {
+    background-color: var(--primary-color) ;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 10px;
+}
+main form button:nth-child(2) {
+    background-color: var(--secondary-color);
+    color: black;
+    border: 1px solid transparent;
+    border-radius: 10px;
+}
+
+ 
+

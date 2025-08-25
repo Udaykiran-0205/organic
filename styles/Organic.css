@@ -482,3 +482,19 @@ main {
 
 }
 
+
+
+@media only screen and (max-width: 400px) {
+
+    .info-container, .address-container, .policy-container, 
+    .nav-container, .title,  nav, .extra-details-container,.button, 
+     .corousel-section, 
+  .cards-container, .product-section, .offers-container,
+  .veg-container, .banner-container, .best-seller-container {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    max-height: 700px;
+  }
+ }
+

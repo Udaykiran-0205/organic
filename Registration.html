@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organic</title>
+    <link rel="stylesheet" href="./styles/organic header.css">
+    <link rel="stylesheet" href="./styles/Organic.css">
+    <link rel="stylesheet" href="./styles/register.css">
+    <link rel="stylesheet" href="./styles/mediaqueries.css">
+</head>
+<body>
+     <header>
+       <div class="nav-container">
+          <div class="title"> Organics</div>
+         <nav>
+            <ul>
+              <li><a href="">Home</a></li>
+              <li><a href="">Shop</a></li>
+              <li><a href="">Shop details</a></li>
+              <li><a href="">Blogs</a></li>
+              <li><a href="">Contact</a></li>
+            </ul>
+         </nav>
+
+          <div class="extra-details">
+               <ul>
+                 <li> <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                  </li>
+
+                 <li> <button><i class="fa-solid fa-cart-shopping"></i></button>
+                  </li>
+
+                 <li> <button><i class="fa-solid fa-user"></i></button>
+                 </li>
+
+               </ul>
+          </div>
+        </div> 
+     </header>
+     <main>
+        <h1 class="title">REGISTER</h1>
+<form id="Registrationform">
+            <div> 
+                <input type="text" name="name" id="name" placeholder="Enter your name">
+
+                <div class="name-error error"></div>
+                <div class="name-success success"></div> 
+
+            </div>
+
+             <div> 
+                <input type="email" name="email" id="email" placeholder="Enter your email">
+
+                 <div class="email-error error"></div>
+                <div class="email-success success"></div>
+            </div>
+             <div> 
+                <input type="phone" name="phone" id="phone" placeholder="Enter your mobile number">
+
+                 <div class="phone-error error"></div>
+                <div class="phone-success success"></div>
+            </div>
+             <div> 
+                <input type="password" name="password" id="password" placeholder="Enter your password">
+
+                 <div class="password-error error"></div>
+                <div class="password-success success"></div>
+            </div>
+             <div> 
+                <input type="password" name="recheckpassword" id="recheckpassword" placeholder="Re-Enter your password">
+
+                 <div class="recheckpassword-error error"></div>
+                <div class="recheckpassword-success success"></div>
+            </div>
+            <div class="button-container">
+                <div>
+                    <button>signup</button>
+                </div>
+                <div>
+                    <button>Cancel</button>
+                </div>
+            </div>
+                      
+        </form>
+     </main>
+</body>
+<script src="https://kit.fontawesome.com/b07b49ad54.js" crossorigin="anonymous"></script>
+<script src="./scripts/register.js"></script>
+</html>
