@@ -1,2 +1,201 @@
+/* =========================
+   Responsive Media Queries
+   ========================= */
 
- 
+/* ----- Mobile (max-width: 600px) ----- */
+@media (max-width: 600px) {
+  main {
+    margin-top: 30px;
+    gap: 20px;
+    padding: 10px;
+  }
+
+  /* Carousel Section */
+  .carousel-section {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+  .carousel-section .details-container .title {
+    font-size: 28px;
+  }
+  .carousel-section .details-container .sub-title {
+    font-size: 16px;
+  }
+  .carousel-section .image-container {
+    max-width: 100%;
+    box-shadow: none;
+  }
+  .carousel-section .details-container .search-bar {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+  /* Cards */
+  .cards-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .container {
+    width: 100%;
+    min-width: unset;
+  }
+
+  /* Products Section */
+  .products-section .products-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .option-container {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .product-items-container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .product-items-container .title {
+    font-size: 22px;
+  }
+
+  /* Offers */
+  .offers-container {
+    flex-direction: column;
+  }
+
+  /* Veg Section */
+  .veg-container .containers {
+    flex-direction: column;
+  }
+  .veg-container .title {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  /* Banner */
+  .banner-container {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+  .banner-container .title {
+    font-size: 30px;
+  }
+  .banner-container .sub-title {
+    font-size: 35px;
+  }
+
+  /* Best Seller */
+  .best-seller-container .title {
+    font-size: 32px;
+  }
+  .best-seller-container .sub-title {
+    font-size: 14px;
+    text-align: center;
+  }
+  .best-seller-container .image-container {
+    flex-direction: column;
+  }
+}
+
+/* ----- Tablets (601px – 1024px) ----- */
+@media (min-width: 601px) and (max-width: 1024px) {
+  .carousel-section {
+    flex-direction: row;
+    padding: 20px;
+    gap: 20px;
+  }
+  .carousel-section .details-container .title {
+    font-size: 36px;
+  }
+  .carousel-section .details-container .sub-title {
+    font-size: 18px;
+  }
+  .carousel-section .image-container {
+    max-width: 300px;
+  }
+
+  .cards-container {
+    justify-content: space-around;
+  }
+  .products-section .products-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .product-items-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .veg-container .containers {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .banner-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .best-seller-container .title {
+    font-size: 40px;
+  }
+  .best-seller-container .sub-title {
+    font-size: 16px;
+  }
+}
+
+/* ----- Large Screens (1025px and above) ----- */
+@media (min-width: 1025px) {
+  .carousel-section {
+    flex-direction: row;
+  }
+
+  .product-items-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .veg-container .containers {
+    flex-direction: row;
+  }
+
+  .banner-container {
+    flex-direction: row;
+  }
+
+  .best-seller-container .image-container {
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
+
+@media screen and (max-width:600px) {
+    header .info-container,
+    header nav,
+    header .extra-details-container{
+        display: none; 
+    
+    main .carousel-section,
+    main .carousel-section .search-bar,
+    main .carousel-section .details-container,
+    main .carousel-section, .image-container,
+    main .products-section .products-container,
+    main .products-section .option-container,
+    main .products-section .product-items-container,
+    main .veg-container .containers,
+    main .banner-container{
+        flex-wrap: wrap;
+    }
+
+    main .veg-container .items-container{
+        min-width: 250px;
+    }
+
+
+}
+    }
